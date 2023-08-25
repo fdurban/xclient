@@ -29,7 +29,7 @@ const Post = () => {
                 <p>I challenge you to build a Twitter Clone with React!!</p>
             </div>
         </div>
-        <img src="https://www.mexicodesconocido.com.mx/wp-content/uploads/2023/07/Diseno-sin-titulo-2.jpg" alt="" className="" />
+        <img src="https://media.giphy.com/media/wllnm5sGAW3cKmvvck/giphy-downsized-large.gif" alt="" className="" />
         <div className="post__footer">
 
             <ChatBubbleIcon fontSize="small" />
