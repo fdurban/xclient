@@ -8,7 +8,7 @@ import RepeatOutlinedIcon from '@mui/icons-material/RepeatOutlined'
 import PublishIcon from '@mui/icons-material/Publish'
 
 
-const Post = ({ displayName, username, verified, text, image, avatar }) => {
+const Post = () => {
   return (
     <div className='post'>
         <div className="post__avatar">
@@ -18,7 +18,7 @@ const Post = ({ displayName, username, verified, text, image, avatar }) => {
         <div className="post__header">
             <div className="post__headerText">
                 <h3>
-                    Polla Frita 
+                    Usuario
                     <span className="post__headerSpecial">
                         <VerifiedIcon className="post__badge"/>
                         @username
@@ -29,7 +29,7 @@ const Post = ({ displayName, username, verified, text, image, avatar }) => {
                 <p>I challenge you to build a Twitter Clone with React!!</p>
             </div>
         </div>
-        <img src="https://media.giphy.com/media/wllnm5sGAW3cKmvvck/giphy-downsized-large.gif" alt="" className="" />
+        <img src="https://www.mexicodesconocido.com.mx/wp-content/uploads/2023/07/Diseno-sin-titulo-2.jpg" alt="" className="" />
         <div className="post__footer">
 
             <ChatBubbleIcon fontSize="small" />
